@@ -6,10 +6,12 @@ fSum(10, 20);
 
 //함수의 반환 값에 타입을 정의하는 방식
 function add(): number {
-    // return 10;
+    return 10;
 }
 
 //함수에 타입을 정의하는 방식
 function sum02(a: number, b: number): number {
     return a + b;
 }
+
+sum02(10, 20) //30
