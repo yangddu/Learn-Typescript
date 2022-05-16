@@ -18,3 +18,13 @@ const joo = {
     age: 20
 }
 getUser(joo);
+
+// 함수의 스펙(구조)에 인터페이스를 활용
+interface SumFunction {
+    (a: number, b: number): number;
+}
+
+var summ: SumFunction;
+summ = function (a: number, b: number): number { 
+    return a + b;
+}
