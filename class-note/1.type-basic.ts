@@ -8,7 +8,7 @@ let str: string = 'hello';
 let num: number = 12;
 
 //TS 배열
-let arr: Array<number> = [1, 2, 3];
+// let arr: Array<number> = [1, 2, 3];
 let heroes: Array<string> = ['Capt', 'Thor', 'Hulk'];
 let items: number[] = [1, 2, 3];
 
