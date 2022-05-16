@@ -16,7 +16,7 @@ let items: number[] = [1, 2, 3];
 let address: [string, number] = ['gangnam', 100];
 
 //TS 객체
-let obj: object = {};
+// let obj: object = {};
 let person: {name: string, age: number} = {
     name: 'thor',
     age: 1000
