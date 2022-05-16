@@ -2,7 +2,7 @@
 // let str = 'hello';
 
 //TS 문자열 선언
-let str: string = 'hello';
+// let str: string = 'hello';
 
 //TS 숫자
 let num: number = 12;
