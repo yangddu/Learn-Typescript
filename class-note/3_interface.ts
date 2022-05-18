@@ -57,12 +57,12 @@ Object.keys(obj).forEach(function (value) {})
 //     age: number
 // }
 
-interface Developer extends Person {
-    language: string
-}
+// interface Developer extends Person {
+//     language: string
+// }
 
-var joooo: Developer = {
-    name: 'cherry',
-    age: 4,
-    language: 'hihi'
-}
+// var joooo: Developer = {
+//     name: 'cherry',
+//     age: 4,
+//     language: 'hihi'
+// }
