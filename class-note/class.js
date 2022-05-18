@@ -1,3 +1,9 @@
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+}
+var cherryy = new Person('체리', 5);
+
 class Person {
     // 클래스 로직
     constructor(name, age) {
