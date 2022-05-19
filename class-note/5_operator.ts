@@ -26,10 +26,10 @@ interface Developer {
     skill: string;
 }
 
-interface Person {
-    name: string;
-    age: number;
-}
+// interface Person {
+//     name: string;
+//     age: number;
+// }
 
 // function askSomeone(someone: Developer | Person) {
 //     // someone.name;

@@ -1,17 +1,17 @@
-interface Person {
-    name: string;
-    age: number;
-}
+// interface Person {
+//     name: string;
+//     age: number;
+// }
 
 // type Person = {
 //     name: string;
 //     age: number;
 // }
 
-var joop: Person = {
-    name: 'jooo',
-    age: 20
-}
+// var joop: Person = {
+//     name: 'jooo',
+//     age: 20
+// }
 
 type MyString = string;
 var str: MyString = 'hello';
