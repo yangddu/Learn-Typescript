@@ -12,17 +12,24 @@
 // }
 // logText<string>('하이');
 
-function logText(text: string) {
+// function logText(text: string) {
+//     console.log(text);
+//     // text.split('').reverse().join('');
+//     return text;
+// }
+
+function logText(text: string | number) {
     console.log(text);
-    // text.split('').reverse().join('');
     return text;
 }
 
-function logNumber(num: number) {
-    console.log(num)
-    return num;
-}
+const a = logText('a');
+logText(10);
+// function logNumber(num: number) {
+//     console.log(num)
+//     return num;
+// }
 
 logText('a');
-logNumber(10);
+logText(10);
 
