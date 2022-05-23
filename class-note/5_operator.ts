@@ -21,10 +21,10 @@
 // logMessage('hello');
 // logMessage(100);
 
-interface Developer {
-    name: string;
-    skill: string;
-}
+// interface Developer {
+//     name: string;
+//     skill: string;
+// }
 
 // interface Person {
 //     name: string;
@@ -40,13 +40,13 @@ interface Developer {
 // // askSomeone({ name: '디벨로퍼', skill: '하하' })
 // askSomeone({ name: '체리', age: 100 })
 
-function askSomeone(someone: Developer & Person) {
-    someone.name;
-    someone.skill;
-    someone.age;
-}
+// function askSomeone(someone: Developer & Person) {
+//     someone.name;
+//     someone.skill;
+//     someone.age;
+// }
 
-askSomeone({ name: '디벨로퍼', skill: '웹 개발', age: 1000 })
+// askSomeone({ name: '디벨로퍼', skill: '웹 개발', age: 1000 })
 
 // var hoho: string | number | boolean;
 // var cherr: string & number & boolean;
