@@ -15,3 +15,21 @@ var shoppingItem: Dropdown<string> = {
     value: 'abc',
     title: 'hello'
 }
+
+// 타입 추론 기본 3
+interface Dropdown<T> {
+    value: T;
+    title: string;
+}
+interface DetailedDropdown<K> extends Dropdown<K>{
+    description: string
+    tag: K;
+    value,
+    title,
+}
+var detailedItem: DetailedDropdown<number> = {
+    title: 'abc',
+    description: 'ab',
+    value: 'a',
+    tag: 100
+}
