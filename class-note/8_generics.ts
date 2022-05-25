@@ -48,10 +48,10 @@ const login = logText<boolean>(true);
 //     selected: boolean;
 // }
 
-interface Dropdown<T> {
-    value: T;
-    selected: boolean;
-}
+// interface Dropdown<T> {
+//     value: T;
+//     selected: boolean;
+// }
 
 const obj2: Dropdown<string> = { value: 'abc', selected: false };
 
@@ -78,11 +78,11 @@ logTextLength('a');
 logTextLength({ length: 10 });
 
 // 제네릭의 타입 제한 3 - keyof 
-interface ShoppingItem {
-    name: string;
-    price: number;
-    stock: number;
-}
+// interface ShoppingItem {
+//     name: string;
+//     price: number;
+//     stock: number;
+// }
 function getShoppingItemOption<T extends keyof ShoppingItem>(itemOption: T): T {
     return itemOption;
 }
