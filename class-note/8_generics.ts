@@ -53,7 +53,7 @@ const login = logText<boolean>(true);
 //     selected: boolean;
 // }
 
-const obj2: Dropdown<string> = { value: 'abc', selected: false };
+// const obj2: Dropdown<string> = { value: 'abc', selected: false };
 
 // 제네릭의 타입 제한
 // function logTextLength<T>(text: T[]): T[] {

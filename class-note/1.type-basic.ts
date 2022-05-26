@@ -17,10 +17,10 @@ let address: [string, number] = ['gangnam', 100];
 
 //TS 객체
 // let obj: object = {};
-let person: {name: string, age: number} = {
-    name: 'thor',
-    age: 1000
-}
+// let person: {name: string, age: number} = {
+//     name: 'thor',
+//     age: 1000
+// }
 
 //TS 진위값
 let show: boolean = true;
